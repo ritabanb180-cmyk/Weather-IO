@@ -1,0 +1,98 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(0, 0%, 96%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather{
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.cityinput{
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid hsl(0, 0%, 80%);
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(210, 100%, 40%);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover{
+    background-color: hsl(210, 100%, 30%);
+}
+
+.Weathercard{
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.city{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.weatherType{
+    font-size: 72px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.temp{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.humid{
+    font-size: 16px;
+    font-weight: bold;
+    color: hsla(210, 2%, 17%, 0.76);
+    margin-bottom: 0px;
+}
+
+.desc{
+    font-size: 16px;
+    font-weight: bold;
+    color: hsla(210, 2%, 17%, 0.76);
+    margin-bottom: 30px;
+}
+
+.error{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: red;
+    margin-left: 10px;
+}
+
